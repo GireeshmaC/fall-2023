@@ -1,0 +1,88 @@
+/* AdminView.css */
+
+.admin-view {
+    padding: 20px;
+    margin: 2% 0;
+    background-color: #000000A0 !important;
+    color: white !important;
+  }
+  
+  .cell-styling{
+    color: white !important;
+    text-align: center !important;
+    align-items: center;
+  }
+
+  .card-list {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1200px;
+  }
+  
+  .user-card {
+    width: 90%;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    background-color: #000000A0 !important;
+    color: white !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .user-card-content{
+    background-color: transparent;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-list .actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: transparent;
+  }
+  
+  .actions button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .actions button.primary {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .actions button.primary:hover {
+    background-color: #45a049;
+  }
+  
+  .actions button.secondary {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .actions button.secondary:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Styles for Snackbar can be added if needed */
+    

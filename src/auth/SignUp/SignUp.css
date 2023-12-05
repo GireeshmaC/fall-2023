@@ -1,0 +1,85 @@
+/* SignUp.css */
+
+.signup-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-form {
+    background-color: #00000090;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin: 15px 0;
+    position: relative;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+  
+  .input-group input[type="password"] {
+    background-color: #f7f7f7;
+  }
+  
+  .error-message {
+    color: #ff0000;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .password-toggle:hover {
+    color: #007bff;
+  }
+  
+  .signup-button {
+    background-color: #234E7D; /* Adjust the button background color (teal in this example) */
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .signup-button:hover {
+    background-color: #232F7D;
+  }
+  
+  /* Additional CSS for Sign Up fields (similar to Login fields) */
+  

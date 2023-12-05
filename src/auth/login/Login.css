@@ -1,0 +1,96 @@
+/* Login.css */
+
+.login-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .login-form {
+    background-color: #00000090;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Increase the padding to create more space inside the card */
+    text-align: center;
+    width: 500px; /* Increase the width of the card */
+    height: 500px; /* Increase the height of the card */
+    max-width: 90%;
+    max-height: 90%;
+    display: flex; /* Center align items vertically */
+    flex-direction: column; /* Align items in a column layout */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  h2 {
+    margin: 0;
+    color: #333;
+    margin-bottom: 20px; /* Add some spacing below the title */
+  }
+  
+  .input-group {
+    margin: 15px 0; /* Increase the margin between input fields */
+    position: relative;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the password input field with a background color */
+  .input-group input[type="password"] {
+    background-color: #f7f7f7;
+  }
+  
+  .error-message {
+    color: #ff0000;
+  }
+  
+  /* Icon styling */
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .password-toggle:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
+  .login-button,.signup-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Add spacing above the login button */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+
+  .signup-button {
+    background-color: #17a2b8; 
+  }
+  
+  .signup-button:hover {
+    background-color: #138496; /* Change the color on hover for the "Sign Up" button */
+  }
+
+  .btn_disabled {
+    background-color: gray !important;
+  }
