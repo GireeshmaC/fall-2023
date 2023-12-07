@@ -1,0 +1,35 @@
+.form-container {
+    width: 100vw;
+  }
+  
+  .form-container-wrap {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container form label {
+    margin-bottom: 10px;
+  }
+  
+  .form-container form input,
+  .form-container form textarea,
+  .form-container form file {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,13 @@
+.passwordActionBtsGrp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-div{
+    background-color: #00000090 !important;
+    color: white;
+}
+
+.inputClass{
+    background-color: white;
+}
